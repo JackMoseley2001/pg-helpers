@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup_test_db": "createdb pg_helpers_tests",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,6 @@
     "pg": "^8.0.2"
   },
   "devDependencies": {
-    "@types/pg": "^7.14.3",
-    "jest": "^25.4.0"
+    "@types/pg": "^7.14.3"
   }
 }
