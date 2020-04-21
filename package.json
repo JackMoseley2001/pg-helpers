@@ -1,0 +1,25 @@
+{
+  "name": "pg-helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackMoseley2001/pg-helpers.git"
+  },
+  "author": "Jack Moseley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackMoseley2001/pg-helpers/issues"
+  },
+  "homepage": "https://github.com/JackMoseley2001/pg-helpers#readme",
+  "dependencies": {
+    "pg": "^8.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
